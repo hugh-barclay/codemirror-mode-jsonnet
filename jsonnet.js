@@ -220,6 +220,7 @@
       },
     };
   });
+  CodeMirror.defineMIME("text/jsonnet", "jsonnet");
+  CodeMirror.defineMIME("text/x-jsonnet", "jsonnet");
 });
 
-CodeMirror.defineMIME("text/x-jsonnet", "jsonnet");
